@@ -1,0 +1,35 @@
+section{
+    display: flex;
+}
+
+article, .connexion{
+    padding: 5px;
+    margin: 5px;
+}
+
+article{
+    flex: 80%;
+    background-color: lightgreen;
+}
+
+header{
+    font-weight: bold;
+}
+
+footer{
+    color: darkgray;
+}
+
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.connexion{
+    flex: 20%;
+    border: solid black 1px;
+}
+
+#erreur{
+    color: red;
+}
